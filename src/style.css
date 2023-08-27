@@ -8,6 +8,19 @@
   --active-button: linear-gradient(145deg, #2662e2 0%, #7e48c0 100%);
 }
 
+::-webkit-scrollbar {
+  background: #042a649e;
+  width: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #042b64;
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
 li,
 ul {
   list-style: none;
