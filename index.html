@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fancy Spotify</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="src/script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="left-sidebar">
+        <button class="btn-mobile-close"><i class="bx bx-x"></i></button>
+        <article class="left-sidebar-item">
+          <div class="left-sidebar-button active">
+            <div class="button-icon"><i class="bx bx-building-house"></i></div>
+            <p>Menu</p>
+          </div>
+          <ul class="inner-left-sidebar-items">
+            <li class="active">
+              <a href=""> <i class="bx bx-headphone"></i> Discover </a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-search"></i>Search</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-library"></i>Library</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-radio"></i>Radio</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-play-circle"></i>Music Video</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bxs-microphone"></i>Podcast</a>
+            </li>
+          </ul>
+        </article>
+        <article class="left-sidebar-item">
+          <div class="left-sidebar-button">
+            <div class="button-icon">
+              <i class="bx bx-library"></i>
+            </div>
+            <p>Library</p>
+          </div>
+          <ul class="inner-left-sidebar-items">
+            <li>
+              <a href=""> <i class="bx bx-headphone"></i> Discover </a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-search"></i>Search</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-search"></i>Library</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bx-radio"></i>Radio</a>
+            </li>
+          </ul>
+        </article>
+        <article class="left-sidebar-item">
+          <div class="left-sidebar-button">
+            <div class="button-icon">
+              <i class="bx bxs-music"></i>
+            </div>
+            <p>Playlist</p>
+          </div>
+          <ul class="inner-left-sidebar-items">
+            <li>
+              <a href=""> <i class="bx bxs-heart"></i> My Favorite Songs</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bxs-music"></i>Music of Summer</a>
+            </li>
+            <li>
+              <a href=""><i class="bx bxs-medal"></i>Today's Top Hits</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-content">
+        <article class="search-bar-wrapper">
+          <div class="buttons-wrapper">
+            <button class="chevron-btn">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="chevron-btn">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+            <button class="btn-mobile-open"><i class="bx bx-menu"></i></button>
+          </div>
+          <div class="search-bar-input">
+            <input type="text" placeholder=" " />
+            <div>
+              <i class="bx bx-search"></i>
+              <p>Search</p>
+            </div>
+          </div>
+          <i class="bx bxs-bell" style="font-size: 24px; color: white"></i>
+          <div class="profile-wrapper">
+            <span class="frame"></span>
+            <p>PedroHS</p>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+        </article>
+        <article class="discover-article">
+          <h1>Discover</h1>
+          <div class="banner">
+            <h1>Get Premium free for 1 month</h1>
+            <p>Only $9.99/month after. Cancel anytime</p>
+            <div class="buttons-wrapper">
+              <button>Get Started</button>
+              <button>View Plans</button>
+            </div>
+          </div>
+        </article>
+        <article class="favorite-artists-article">
+          <div>
+            <h1>Favorite Artists</h1>
+            <p>See all</p>
+          </div>
+          <hr />
+          <div class="artists-grid">
+            <div>
+              <span class="frame"></span>
+              <p>Doja Cat</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Dua Lipa</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Aua Max</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Lizzo</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Harry Styles</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Drake</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Taylor Swift</p>
+            </div>
+            <div>
+              <span class="frame"></span>
+              <p>Billie Eilish</p>
+            </div>
+          </div>
+        </article>
+        <article class="recommended-article">
+          <div>
+            <h1>Recommended for you</h1>
+            <p>See all</p>
+          </div>
+          <hr />
+          <div class="recommended-grid">
+            <div>
+              <span
+                class="card-banner"
+                style="background-image: url(./assets/images/favorite.jpg)"
+              >
+                <button><i class="bx bx-play"></i></button>
+              </span>
+              <p>My Favorite Songs</p>
+            </div>
+            <div>
+              <span
+                class="card-banner"
+                style="background-image: url(./assets/images/relaxando.jpg)"
+              >
+                <button><i class="bx bx-play"></i></button>
+              </span>
+              <p>Relaxing Songs</p>
+            </div>
+            <div>
+              <span
+                class="card-banner"
+                style="background-image: url(./assets/images/summerhits.jpg)"
+              >
+                <button><i class="bx bx-play"></i></button>
+              </span>
+              <p>Music of Summer</p>
+            </div>
+            <div>
+              <span
+                class="card-banner"
+                style="background-image: url(./assets/images/headphone.jpg)"
+              >
+                <button><i class="bx bx-play"></i></button>
+              </span>
+              <p>Top 100 Global</p>
+            </div>
+          </div>
+        </article>
+        <article class="others-article">
+          <div class="billboard">
+            <div>
+              <h1>Billboard Top 100</h1>
+              <p>See all</p>
+            </div>
+            <div class="music-card">
+              <div class="music-info">
+                <span
+                  class="frame"
+                  style="
+                    background-image: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/07/GettyImages-1241922132.jpg?w=1200&h=1200&crop=1);
+                  "
+                ></span>
+                <div>
+                  <strong>About Damn Time</strong>
+                  <p>Lizzo</p>
+                </div>
+              </div>
+              <div class="music-time">
+                <p>4:39</p>
+                <img src="./assets/icons/icon-ellipsis.svg" alt="" />
+              </div>
+            </div>
+            <div class="music-card">
+              <div class="music-info">
+                <span
+                  class="frame"
+                  style="
+                    background-image: url(https://s2-vogue.glbimg.com/7bVBL1X3vaYAxdgnqjYJbWeVq0U=/0x0:1675x2513/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_5dfbcf92c1a84b20a5da5024d398ff2f/internal_photos/bs/2023/r/m/QuBBRYTkKd0j9CuJBPTA/gettyimages-1463309813.jpg);
+                  "
+                ></span>
+                <div>
+                  <strong>As It Was</strong>
+                  <p>Harry Styles</p>
+                </div>
+              </div>
+              <div class="music-time">
+                <p>4:39</p>
+                <img src="./assets/icons/icon-ellipsis.svg" alt="" />
+              </div>
+            </div>
+            <div class="music-card">
+              <div class="music-info">
+                <span
+                  class="frame"
+                  style="
+                    background-image: url(https://assets.vogue.com/photos/609bb445758287e5e091eeed/1:1/w_2000,h_2000,c_limit/Billie-Eilish-Happier-Than-Ever.jpeg);
+                  "
+                ></span>
+                <div>
+                  <strong>Happier Than Never</strong>
+                  <p>Billie Eilish</p>
+                </div>
+              </div>
+              <div class="music-time">
+                <p>4:39</p>
+                <img src="./assets/icons/icon-ellipsis.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="recently-play">
+            <div>
+              <h1>Recently Play</h1>
+              <p>See all</p>
+            </div>
+            <div class="music-card">
+              <div class="music-info">
+                <span
+                  class="frame"
+                  style="
+                    background-image: url(https://media.pitchfork.com/photos/60c37d2c42a3ecb7ba10112b/1:1/w_2100,h_2100,c_limit/Doja-Cat.jpg);
+                  "
+                ></span>
+                <div>
+                  <strong>Women</strong>
+                  <p>Doja Cat</p>
+                </div>
+              </div>
+              <div class="music-time">
+                <p>4:39</p>
+                <img src="./assets/icons/icon-ellipsis.svg" alt="" />
+              </div>
+            </div>
+            <div class="music-card">
+              <div class="music-info">
+                <span
+                  class="frame"
+                  style="
+                    background-image: url(https://akamai.sscdn.co/uploadfile/letras/fotos/f/a/6/6/fa661213485b58837579fd312e40f3c2.jpg);
+                  "
+                ></span>
+                <div>
+                  <strong>Jimmy Cook</strong>
+                  <p>Drake</p>
+                </div>
+              </div>
+              <div class="music-time">
+                <p>4:39</p>
+                <img src="./assets/icons/icon-ellipsis.svg" alt="" />
+              </div>
+            </div>
+            <div class="music-card">
+              <div class="music-info">
+                <span
+                  class="frame"
+                  style="
+                    background-image: url(https://assets.vogue.com/photos/609bb445758287e5e091eeed/1:1/w_2000,h_2000,c_limit/Billie-Eilish-Happier-Than-Ever.jpeg);
+                  "
+                ></span>
+                <div>
+                  <strong>Happier Than Never</strong>
+                  <p>Billie Eilish</p>
+                </div>
+              </div>
+              <div class="music-time">
+                <p>4:39</p>
+                <img src="./assets/icons/icon-ellipsis.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- <section class="right-sidebar">
+        <div>
+          <h1>Friends Activity</h1>
+          <p>340 Friends</p>
+        </div>
+        <article class="online-friends">
+          <div class="friend-card">
+            <div class="frame"></div>
+            <div class="info">
+              <strong>Jason Harry</strong>
+              <p>Listening to Stritches</p>
+              <p>by Shawn Mendes</p>
+            </div>
+          </div>
+          <div class="friend-card">
+            <div class="frame"></div>
+            <div class="info">
+              <strong>Maggie Mayers</strong>
+              <p>Listening to Acapulo</p>
+              <p>by Jason Derula</p>
+            </div>
+          </div>
+          <div class="friend-card">
+            <div class="frame"></div>
+            <div class="info">
+              <strong>Lucie Scott</strong>
+              <p>Listening to Shivers</p>
+              <p>by Ed Sheeran</p>
+            </div>
+          </div>
+          <div class="friend-card">
+            <div class="frame"></div>
+            <div class="info">
+              <strong>Jay Wing</strong>
+              <p>Listening to Jimmy Cooks</p>
+              <p>by Drake</p>
+            </div>
+          </div>
+        </article>
+        <article class="music-playing"></article>
+      </section> -->
+    </main>
+  </body>
+</html>
